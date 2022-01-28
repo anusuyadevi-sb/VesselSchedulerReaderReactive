@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: dataReaderReactive
+
+
+Spring:
+  data:
+    mongodb:
+      #uri: mongodb+srv://eventsdb:Learn%40IBM123@cluster0.qck5t.mongodb.net/events
+      uri: mongodb://testdemofinal:dcBBC8ftPSE7x2UUyskcD5Z8myIFPsdbkuQP7xAMDMovnAYdcrhA8GNxqQr5xedRXoZGDmKCBggufkoZN3b0nw==@testdemofinal.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@testdemofinal@
+      database: events
+
+Server:
+  port: 9090
+
+
+
